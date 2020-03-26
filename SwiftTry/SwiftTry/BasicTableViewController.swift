@@ -11,7 +11,20 @@ import UIKit
 class BasicTableViewController: UITableViewController {
     
     var arrayData = ["UILabel",
-                     "UIButton"]
+                     "UIButton",
+                     "UITextField",
+                     "UITextView",
+                     "UISwitch",
+                     "UISegmentedControl",
+                     "UIImageView",
+                     "UIProgressView",
+                     "UISlider",
+                     "UIPickerView",
+                     "UIStepper",
+                     "UIScrollView",
+                     "CoreMotion",
+                     "UIGestureRecognizer",
+                     "UIDatePicker"]
     
 
     override func viewDidLoad() {
@@ -42,11 +55,51 @@ class BasicTableViewController: UITableViewController {
         
         switch indexPath.row {
         case 0:
-            let vc = ButtonViewController()
+            let vc = LabelViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         case 1:
             let vc = ButtonViewController()
             self.navigationController?.pushViewController(vc, animated: true)
+        case 2:
+            let vc = TextFieldViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            let vc = TextViewViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 4:
+            let vc = SwitchViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 5:
+            let vc = SegmentViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 6:
+            let vc = ImageViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 7:
+            let vc = ProgressViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 8:
+            let vc = SliderViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 9:
+            let vc = PickerViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 10:
+            let vc = StepperViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 11:
+            let vc = ScrollViewViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 12:
+            let vc = CoreMotionViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 13:
+            let vc = GestureViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 14:
+            let vc = DatePickerViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+            
         default:
             break
         }

@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		048D4859242AF75C00928810 /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4858242AF75C00928810 /* FileViewController.swift */; };
+		048D485B242C4E5D00928810 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D485A242C4E5D00928810 /* LabelViewController.swift */; };
+		048D485D242C542D00928810 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D485C242C542D00928810 /* TextFieldViewController.swift */; };
+		048D485F242C58AF00928810 /* TextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D485E242C58AF00928810 /* TextViewViewController.swift */; };
+		048D4861242C5FA100928810 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4860242C5FA100928810 /* SwitchViewController.swift */; };
+		048D4863242C660500928810 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4862242C660500928810 /* SegmentViewController.swift */; };
+		048D4865242C7E1F00928810 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4864242C7E1F00928810 /* ImageViewController.swift */; };
+		048D4867242C82D700928810 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4866242C82D700928810 /* ProgressViewController.swift */; };
+		048D4869242C84FE00928810 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4868242C84FE00928810 /* SliderViewController.swift */; };
+		048D486B242C88FE00928810 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D486A242C88FE00928810 /* PickerViewController.swift */; };
+		048D486D242C8EF500928810 /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D486C242C8EF500928810 /* StepperViewController.swift */; };
+		048D486F242C91D600928810 /* ScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D486E242C91D600928810 /* ScrollViewViewController.swift */; };
+		048D4871242C976E00928810 /* CoreMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4870242C976E00928810 /* CoreMotionViewController.swift */; };
+		048D4873242CA5D500928810 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4872242CA5D500928810 /* GestureViewController.swift */; };
+		048D4875242CB9B800928810 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4874242CB9B800928810 /* DatePickerViewController.swift */; };
 		04D62C2B2428C93800C9B7B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D62C2A2428C93800C9B7B8 /* AppDelegate.swift */; };
 		04D62C2D2428C93800C9B7B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D62C2C2428C93800C9B7B8 /* SceneDelegate.swift */; };
 		04D62C2F2428C93800C9B7B8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D62C2E2428C93800C9B7B8 /* FirstViewController.swift */; };
@@ -44,6 +58,20 @@
 
 /* Begin PBXFileReference section */
 		048D4858242AF75C00928810 /* FileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
+		048D485A242C4E5D00928810 /* LabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
+		048D485C242C542D00928810 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		048D485E242C58AF00928810 /* TextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewViewController.swift; sourceTree = "<group>"; };
+		048D4860242C5FA100928810 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		048D4862242C660500928810 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+		048D4864242C7E1F00928810 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		048D4866242C82D700928810 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		048D4868242C84FE00928810 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		048D486A242C88FE00928810 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		048D486C242C8EF500928810 /* StepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
+		048D486E242C91D600928810 /* ScrollViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewViewController.swift; sourceTree = "<group>"; };
+		048D4870242C976E00928810 /* CoreMotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionViewController.swift; sourceTree = "<group>"; };
+		048D4872242CA5D500928810 /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
+		048D4874242CB9B800928810 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		04D62C272428C93800C9B7B8 /* SwiftTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D62C2A2428C93800C9B7B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D62C2C2428C93800C9B7B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,7 +180,21 @@
 		04D62C622429C9B600C9B7B8 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				048D485A242C4E5D00928810 /* LabelViewController.swift */,
 				04D62C632429C9DC00C9B7B8 /* ButtonViewController.swift */,
+				048D485C242C542D00928810 /* TextFieldViewController.swift */,
+				048D485E242C58AF00928810 /* TextViewViewController.swift */,
+				048D4860242C5FA100928810 /* SwitchViewController.swift */,
+				048D4862242C660500928810 /* SegmentViewController.swift */,
+				048D4864242C7E1F00928810 /* ImageViewController.swift */,
+				048D4866242C82D700928810 /* ProgressViewController.swift */,
+				048D4868242C84FE00928810 /* SliderViewController.swift */,
+				048D486A242C88FE00928810 /* PickerViewController.swift */,
+				048D486C242C8EF500928810 /* StepperViewController.swift */,
+				048D486E242C91D600928810 /* ScrollViewViewController.swift */,
+				048D4870242C976E00928810 /* CoreMotionViewController.swift */,
+				048D4872242CA5D500928810 /* GestureViewController.swift */,
+				048D4874242CB9B800928810 /* DatePickerViewController.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -299,17 +341,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048D485F242C58AF00928810 /* TextViewViewController.swift in Sources */,
+				048D4875242CB9B800928810 /* DatePickerViewController.swift in Sources */,
 				04FCF0C0242A19D00068BC27 /* RangeViewController.swift in Sources */,
 				04D62C312428C93800C9B7B8 /* SecondViewController.swift in Sources */,
+				048D4865242C7E1F00928810 /* ImageViewController.swift in Sources */,
+				048D486F242C91D600928810 /* ScrollViewViewController.swift in Sources */,
 				04D62C2F2428C93800C9B7B8 /* FirstViewController.swift in Sources */,
+				048D485D242C542D00928810 /* TextFieldViewController.swift in Sources */,
+				048D4869242C84FE00928810 /* SliderViewController.swift in Sources */,
 				04D62C2B2428C93800C9B7B8 /* AppDelegate.swift in Sources */,
 				04D62C6B2429DE0C00C9B7B8 /* RandomViewController.swift in Sources */,
 				04D62C692429DBD800C9B7B8 /* StringViewController.swift in Sources */,
+				048D486B242C88FE00928810 /* PickerViewController.swift in Sources */,
+				048D4873242CA5D500928810 /* GestureViewController.swift in Sources */,
+				048D4863242C660500928810 /* SegmentViewController.swift in Sources */,
 				04D62C2D2428C93800C9B7B8 /* SceneDelegate.swift in Sources */,
 				048D4859242AF75C00928810 /* FileViewController.swift in Sources */,
 				04D62C642429C9DC00C9B7B8 /* ButtonViewController.swift in Sources */,
 				04D62C5D2428CAAA00C9B7B8 /* BasicTableViewController.swift in Sources */,
+				048D4861242C5FA100928810 /* SwitchViewController.swift in Sources */,
+				048D4871242C976E00928810 /* CoreMotionViewController.swift in Sources */,
+				048D4867242C82D700928810 /* ProgressViewController.swift in Sources */,
+				048D486D242C8EF500928810 /* StepperViewController.swift in Sources */,
 				04D62C662429DB2C00C9B7B8 /* UtilTableViewController.swift in Sources */,
+				048D485B242C4E5D00928810 /* LabelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
