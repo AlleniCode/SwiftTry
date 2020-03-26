@@ -1,17 +1,19 @@
 //
-//  BasicTableViewController.swift
+//  UtilTableViewController.swift
 //  SwiftTry
 //
-//  Created by Mac on 2020/3/23.
+//  Created by Mac on 2020/3/24.
 //  Copyright © 2020 AAA. All rights reserved.
 //
 
 import UIKit
 
-class BasicTableViewController: UITableViewController {
-    
-    var arrayData = ["UILabel",
-                     "UIButton"]
+class UtilTableViewController: UITableViewController {
+
+    var arrayData = ["String",
+                     "Random",
+                     "... & ..<",
+                     "File"]
     
 
     override func viewDidLoad() {
@@ -42,10 +44,16 @@ class BasicTableViewController: UITableViewController {
         
         switch indexPath.row {
         case 0:
-            let vc = ButtonViewController()
+            let vc = StringViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         case 1:
-            let vc = ButtonViewController()
+            let vc = RandomViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 2:
+            let vc = RangeViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            let vc = FileViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         default:
             break
