@@ -13,7 +13,9 @@ class UtilTableViewController: UITableViewController {
     var arrayData = ["String",
                      "Random",
                      "... & ..<",
-                     "File"]
+                     "File",
+                     "EventKit",
+                     "JSONSerialization"]
     
 
     override func viewDidLoad() {
@@ -55,6 +57,13 @@ class UtilTableViewController: UITableViewController {
         case 3:
             let vc = FileViewController()
             self.navigationController?.pushViewController(vc, animated: true)
+        case 4:
+            let vc = EventKitViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 5:
+            let vc = JsonViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+            
         default:
             break
         }

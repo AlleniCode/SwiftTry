@@ -24,7 +24,15 @@ class BasicTableViewController: UITableViewController {
                      "UIScrollView",
                      "CoreMotion",
                      "UIGestureRecognizer",
-                     "UIDatePicker"]
+                     "UIDatePicker",
+                     "UIToolbar",
+                     "UITableView",
+                     "UISearchBar",
+                     "UICollectionView",
+                     "UIPageControl",
+                     "UIColor",
+                     "UIActivity",
+                     "UIAlertController"]
     
 
     override func viewDidLoad() {
@@ -98,6 +106,30 @@ class BasicTableViewController: UITableViewController {
             self.navigationController?.pushViewController(vc, animated: true)
         case 14:
             let vc = DatePickerViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 15:
+            let vc = ToolbarViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 16:
+            let vc = TableViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 17:
+            let vc = SearchBarViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 18:
+            let vc = CollectionViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 19:
+            let vc = PageControlViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 20:
+            let vc = ColorViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 21:
+            let vc = ActivityViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 22:
+            let vc = AlertViewController()
             self.navigationController?.pushViewController(vc, animated: true)
             
         default:
