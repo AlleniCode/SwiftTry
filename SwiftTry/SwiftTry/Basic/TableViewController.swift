@@ -12,11 +12,12 @@
 // https://www.hangge.com/blog/cache/detail_559.html
 // https://www.hangge.com/blog/cache/detail_560.html
 // https://www.hangge.com/blog/cache/detail_561.html
+// https://www.hangge.com/blog/cache/detail_714.html
 
 
 import UIKit
 
-class TableViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
+class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var tableView: UITableView?
     var arrayData: [Array<String>]?
@@ -92,6 +93,18 @@ class TableViewController: UIViewController,UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
         return "删除"
     }
+    
+    /// 设置cell的显示动画
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        // 设置cell的显示动画为3D缩放
+        // xy方向缩放的初始值为0.1
+        cell.layer.transform = CATransform3DMakeScale(0.1, 0.1, 1)
+        // 设置动画时间为0.25秒，xy方向缩放的最终值为1
+        UIView.animate(withDuration: 0.25) {
+            cell.layer.transform = CATransform3DMakeScale(1, 1, 1)
+        }
+    }
+    
 
     /*
     // MARK: - Navigation

@@ -32,7 +32,8 @@ class BasicTableViewController: UITableViewController {
                      "UIPageControl",
                      "UIColor",
                      "UIActivity",
-                     "UIAlertController"]
+                     "UIAlertController",
+                     "UIActivityIndicatorView"]
     
 
     override func viewDidLoad() {
@@ -131,11 +132,16 @@ class BasicTableViewController: UITableViewController {
         case 22:
             let vc = AlertViewController()
             self.navigationController?.pushViewController(vc, animated: true)
+        case 23:
+            let vc = IndicatorViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
             
         default:
             break
         }
     }
+    
+    
 
     /*
     // MARK: - Navigation

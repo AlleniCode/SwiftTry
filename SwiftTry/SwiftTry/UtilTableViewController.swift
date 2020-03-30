@@ -15,7 +15,11 @@ class UtilTableViewController: UITableViewController {
                      "... & ..<",
                      "File",
                      "EventKit",
-                     "JSONSerialization"]
+                     "JSONSerialization",
+                     "Calculation",
+                     "Animation",
+                     "UserDefaults",
+                     "Timer"]
     
 
     override func viewDidLoad() {
@@ -63,11 +67,25 @@ class UtilTableViewController: UITableViewController {
         case 5:
             let vc = JsonViewController()
             self.navigationController?.pushViewController(vc, animated: true)
+        case 6:
+            let vc = CalculationViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 7:
+            let vc = AnimationViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 8:
+            let vc = UserDefaultViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 9:
+            let vc = TimerViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
             
         default:
             break
         }
     }
+    
+    
 
     /*
     // MARK: - Navigation

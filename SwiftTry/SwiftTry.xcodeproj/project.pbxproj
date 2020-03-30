@@ -32,6 +32,11 @@
 		048D4885242DEC1100928810 /* EventKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4884242DEC1100928810 /* EventKitViewController.swift */; };
 		048D4887242DFC8000928810 /* JsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4886242DFC8000928810 /* JsonViewController.swift */; };
 		048D4889242E08BE00928810 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4888242E08BE00928810 /* AlertViewController.swift */; };
+		048D488D24319C0400928810 /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D488C24319C0400928810 /* CalculationViewController.swift */; };
+		048D488F24319D6E00928810 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D488E24319D6E00928810 /* AnimationViewController.swift */; };
+		048D48912431C37400928810 /* UserDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48902431C37400928810 /* UserDefaultViewController.swift */; };
+		048D48932431DCDB00928810 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48922431DCDB00928810 /* TimerViewController.swift */; };
+		048D48952431DEFF00928810 /* IndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48942431DEFF00928810 /* IndicatorViewController.swift */; };
 		04D62C2B2428C93800C9B7B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D62C2A2428C93800C9B7B8 /* AppDelegate.swift */; };
 		04D62C2D2428C93800C9B7B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D62C2C2428C93800C9B7B8 /* SceneDelegate.swift */; };
 		04D62C2F2428C93800C9B7B8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D62C2E2428C93800C9B7B8 /* FirstViewController.swift */; };
@@ -92,6 +97,11 @@
 		048D4884242DEC1100928810 /* EventKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitViewController.swift; sourceTree = "<group>"; };
 		048D4886242DFC8000928810 /* JsonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonViewController.swift; sourceTree = "<group>"; };
 		048D4888242E08BE00928810 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		048D488C24319C0400928810 /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
+		048D488E24319D6E00928810 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		048D48902431C37400928810 /* UserDefaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultViewController.swift; sourceTree = "<group>"; };
+		048D48922431DCDB00928810 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		048D48942431DEFF00928810 /* IndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorViewController.swift; sourceTree = "<group>"; };
 		04D62C272428C93800C9B7B8 /* SwiftTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D62C2A2428C93800C9B7B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D62C2C2428C93800C9B7B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -223,6 +233,7 @@
 				048D4880242DDCED00928810 /* ColorViewController.swift */,
 				048D4882242DE39D00928810 /* ActivityViewController.swift */,
 				048D4888242E08BE00928810 /* AlertViewController.swift */,
+				048D48942431DEFF00928810 /* IndicatorViewController.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -236,6 +247,10 @@
 				048D4858242AF75C00928810 /* FileViewController.swift */,
 				048D4884242DEC1100928810 /* EventKitViewController.swift */,
 				048D4886242DFC8000928810 /* JsonViewController.swift */,
+				048D488C24319C0400928810 /* CalculationViewController.swift */,
+				048D488E24319D6E00928810 /* AnimationViewController.swift */,
+				048D48902431C37400928810 /* UserDefaultViewController.swift */,
+				048D48922431DCDB00928810 /* TimerViewController.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -375,12 +390,17 @@
 				048D4875242CB9B800928810 /* DatePickerViewController.swift in Sources */,
 				04FCF0C0242A19D00068BC27 /* RangeViewController.swift in Sources */,
 				048D4883242DE39D00928810 /* ActivityViewController.swift in Sources */,
+				048D48952431DEFF00928810 /* IndicatorViewController.swift in Sources */,
 				04D62C312428C93800C9B7B8 /* SecondViewController.swift in Sources */,
 				048D4865242C7E1F00928810 /* ImageViewController.swift in Sources */,
+				048D488F24319D6E00928810 /* AnimationViewController.swift in Sources */,
 				048D486F242C91D600928810 /* ScrollViewViewController.swift in Sources */,
 				04D62C2F2428C93800C9B7B8 /* FirstViewController.swift in Sources */,
+				048D48912431C37400928810 /* UserDefaultViewController.swift in Sources */,
+				048D48932431DCDB00928810 /* TimerViewController.swift in Sources */,
 				048D4889242E08BE00928810 /* AlertViewController.swift in Sources */,
 				048D485D242C542D00928810 /* TextFieldViewController.swift in Sources */,
+				048D488D24319C0400928810 /* CalculationViewController.swift in Sources */,
 				048D4869242C84FE00928810 /* SliderViewController.swift in Sources */,
 				04D62C2B2428C93800C9B7B8 /* AppDelegate.swift in Sources */,
 				04D62C6B2429DE0C00C9B7B8 /* RandomViewController.swift in Sources */,
