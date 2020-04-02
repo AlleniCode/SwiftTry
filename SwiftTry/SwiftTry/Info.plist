@@ -22,6 +22,8 @@
 	<true/>
 	<key>NSCalendarsUsageDescription</key>
 	<string>App 需要您的同意，才能访问日历</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>App 需要访问您的位置</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

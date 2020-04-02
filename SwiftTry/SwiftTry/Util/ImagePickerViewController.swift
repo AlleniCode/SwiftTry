@@ -1,31 +1,24 @@
 //
-//  RandomViewController.swift
+//  ImagePickerViewController.swift
 //  SwiftTry
 //
-//  Created by Mac on 2020/3/24.
+//  Created by Mac on 2020/4/1.
 //  Copyright © 2020 AAA. All rights reserved.
 //
 
-// https://www.hangge.com/blog/cache/detail_808.html
+// https://www.hangge.com/blog/cache/detail_769.html
+// https://www.hangge.com/blog/cache/detail_770.html
 
 
 import UIKit
 
-class RandomViewController: UIViewController {
+class ImagePickerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.view.backgroundColor = .white
 
-        let random = arc4random()
-        print(random)
+        self.view.backgroundColor = .white
         
-        let random1 = arc4random()%100
-        print(random1)
-        
-        let random2 = arc4random_uniform(1000)
-        print(random2)
         
     }
     

@@ -6,6 +6,10 @@
 //  Copyright © 2020 AAA. All rights reserved.
 //
 
+// https://www.hangge.com/blog/cache/detail_811.html
+// https://www.hangge.com/blog/cache/detail_815.html
+
+
 import UIKit
 
 @UIApplicationMain

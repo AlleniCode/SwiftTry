@@ -7,6 +7,14 @@
 //
 
 // https://www.hangge.com/blog/cache/detail_664.html
+// https://www.hangge.com/blog/cache/detail_774.html
+// https://www.hangge.com/blog/cache/detail_775.html
+// https://www.hangge.com/blog/cache/detail_776.html
+// https://www.hangge.com/blog/cache/detail_777.html
+// https://www.hangge.com/blog/cache/detail_869.html
+// https://www.hangge.com/blog/cache/detail_870.html
+// https://www.hangge.com/blog/cache/detail_927.html
+
 
 import UIKit
 

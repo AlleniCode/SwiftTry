@@ -19,7 +19,27 @@ class UtilTableViewController: UITableViewController {
                      "Calculation",
                      "Animation",
                      "UserDefaults",
-                     "Timer"]
+                     "Timer",
+                     "Array",
+                     "SpriteKit",
+                     "Thread & Operation & GCD",
+                     "UIDevice",
+                     "Socket",
+                     "AssetsLibrary",
+                     "CoreData",
+                     "iCloud",
+                     "ImagePicker",
+                     "AudioToolbox",
+                     "Audio",
+                     "Media",
+                     "CoreLocation",
+                     "Message",
+                     "Mail",
+                     "Localization",
+                     "Regex",
+                     "Singleton",
+                     "Closure",
+                     "Crypto"]
     
 
     override func viewDidLoad() {
@@ -78,6 +98,66 @@ class UtilTableViewController: UITableViewController {
             self.navigationController?.pushViewController(vc, animated: true)
         case 9:
             let vc = TimerViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 10:
+            let vc = ArrayViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 11:
+            let vc = SpriteKit_ViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 12:
+            let vc = ThreadViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 13:
+            let vc = DeviceViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 14:
+            let vc = SocketViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 15:
+            let vc = AssetsLibraryViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 16:
+            let vc = CoreDataViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 17:
+            let vc = iCloudViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 18:
+            let vc = ImagePickerViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 19:
+            let vc = AudioToolboxViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 20:
+            let vc = AudioViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 21:
+            let vc = MediaViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 22:
+            let vc = CoreLocationViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 23:
+            let vc = MessageViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 24:
+            let vc = MailViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 25:
+            let vc = LocalizationViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 26:
+            let vc = RegexViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 27:
+            let vc = SingletonViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 28:
+            let vc = ClosureViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 29:
+            let vc = CryptoViewController()
             self.navigationController?.pushViewController(vc, animated: true)
             
         default:

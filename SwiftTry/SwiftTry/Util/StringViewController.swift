@@ -8,6 +8,10 @@
 
 // https://www.hangge.com/blog/cache/detail_698.html
 // https://www.hangge.com/blog/cache/detail_699.html
+// https://www.hangge.com/blog/cache/detail_740.html
+// https://www.hangge.com/blog/cache/detail_798.html
+// https://www.hangge.com/blog/cache/detail_806.html
+
 
 import UIKit
 
@@ -85,4 +89,20 @@ extension String {
         }
         return sum
     }
+}
+
+extension String {
+    func hexStringColor(hexColor: String) -> UIColor {
+        let color:uint = UInt32(hexColor)!
+        let r:uint = color >> 16  //0x44
+        let g:uint = color >> 8 & 0xFF  //0x55
+        let b:uint = color & 0xFF  //0x77
+        
+        return UIColor(red: CGFloat(r/255), green: CGFloat(g/255), blue: CGFloat(b/255), alpha: 1.0)
+    }
+    
+//    let r:uint = 0x44
+//    let g:uint = 0x55
+//    let b:uint = 0x66
+//    let color:uint = r << 16 | g << 8 | b //0x445566
 }

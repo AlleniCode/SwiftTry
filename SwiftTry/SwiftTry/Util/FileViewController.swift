@@ -7,6 +7,10 @@
 //
 
 // https://www.hangge.com/blog/cache/detail_527.html
+// https://www.hangge.com/blog/cache/detail_719.html
+// https://www.hangge.com/blog/cache/detail_765.html
+// https://www.hangge.com/blog/cache/detail_888.html
+
 
 import UIKit
 
@@ -36,6 +40,44 @@ class FileViewController: UIViewController {
         //self.moveFile()
 
         //self.moveFile2()
+        
+        
+        // Home 目录
+        let homeDirectory = NSHomeDirectory()
+        print(homeDirectory)
+        
+        // Documnets 目录
+        let documentPaths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+        let documentPath = documentPaths[0]
+        print(documentPath)
+        
+        let documentPath1 = NSHomeDirectory() + "/Documents"
+        print(documentPath1)
+        
+        // Library 目录（Caches、Preferences）
+        let libraryPaths = NSSearchPathForDirectoriesInDomains(.libraryDirectory, .userDomainMask, true)
+        let libraryPath = libraryPaths[0]
+        print(libraryPath)
+        
+        let libraryPath1 = NSHomeDirectory() + "/Library"
+        print(libraryPath1)
+        
+        let cachePaths = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true)
+        let cachePath = cachePaths[0]
+        print(cachePath)
+        
+        let cachePath1 = NSHomeDirectory() + "/Library/Caches"
+        print(cachePath1)
+        
+        // tmp 目录
+        let tmpDir = NSTemporaryDirectory()
+        print(tmpDir)
+        
+        let tmpDir1 = NSHomeDirectory() + "/tmp"
+        print(tmpDir1)
+        
+        
+        
     }
     
     /// 遍历一个目录下的所有文件
