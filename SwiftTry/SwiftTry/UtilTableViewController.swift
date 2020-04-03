@@ -39,7 +39,14 @@ class UtilTableViewController: UITableViewController {
                      "Regex",
                      "Singleton",
                      "Closure",
-                     "Crypto"]
+                     "Crypto",
+                     "AirPrint",
+                     "BezierPath",
+                     "Reflection",
+                     "URL schemes",
+                     "Pasteboard",
+                     "as、as!、as?",
+                     "PhotoKit"]
     
 
     override func viewDidLoad() {
@@ -158,6 +165,24 @@ class UtilTableViewController: UITableViewController {
             self.navigationController?.pushViewController(vc, animated: true)
         case 29:
             let vc = CryptoViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 30:
+            let vc = AirPrintViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 31:
+            let vc = BezierPathViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 32:
+            let vc = ReflectionViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 33:
+            let vc = URLSchemesViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 34:
+            let vc = PasteboardViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 35:
+            let vc = AsViewController()
             self.navigationController?.pushViewController(vc, animated: true)
             
         default:

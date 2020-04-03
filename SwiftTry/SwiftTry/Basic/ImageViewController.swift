@@ -21,6 +21,12 @@
 // https://www.hangge.com/blog/cache/detail_909.html【二维码】
 // https://www.hangge.com/blog/cache/detail_915.html【二维码扫描】
 // https://www.hangge.com/blog/cache/detail_921.html
+// https://www.hangge.com/blog/cache/detail_950.html【条形码扫描】
+// https://www.hangge.com/blog/cache/detail_974.html【图像翻转】
+// https://www.hangge.com/blog/cache/detail_1013.html【签名图像】
+// https://www.hangge.com/blog/cache/detail_975.html【ImageHelper】
+// https://www.hangge.com/blog/cache/detail_1102.html【相册】
+// https://www.hangge.com/blog/cache/detail_1132.html【相册】
 
 
 import UIKit

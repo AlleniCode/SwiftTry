@@ -1,23 +1,23 @@
 //
-//  RealmViewController.swift
+//  JSONViewController.swift
 //  SwiftTry
 //
-//  Created by Mac on 2020/4/2.
+//  Created by Mac on 2020/4/3.
 //  Copyright © 2020 AAA. All rights reserved.
 //
 
-// https://www.hangge.com/blog/cache/detail_891.html
-// https://www.hangge.com/blog/cache/detail_953.html
-
+// https://www.hangge.com/blog/cache/detail_968.html
+// https://github.com/SwiftyJSON/SwiftyJSON
 
 import UIKit
 
-class RealmViewController: UIViewController {
+class JSONViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.view.backgroundColor = .white
+        
     }
     
 

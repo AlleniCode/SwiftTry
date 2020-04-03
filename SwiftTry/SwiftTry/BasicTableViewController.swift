@@ -34,7 +34,8 @@ class BasicTableViewController: UITableViewController {
                      "UIActivity",
                      "UIAlertController",
                      "UIActivityIndicatorView",
-                     "WKWebView"]
+                     "WKWebView",
+                     "Navigation"]
     
 
     override func viewDidLoad() {
@@ -138,6 +139,9 @@ class BasicTableViewController: UITableViewController {
             self.navigationController?.pushViewController(vc, animated: true)
         case 24:
             let vc = WebViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 25:
+            let vc = NavigationViewController()
             self.navigationController?.pushViewController(vc, animated: true)
             
         default:

@@ -1,23 +1,22 @@
 //
-//  RealmViewController.swift
+//  PhotoViewController.swift
 //  SwiftTry
 //
-//  Created by Mac on 2020/4/2.
+//  Created by Mac on 2020/4/3.
 //  Copyright © 2020 AAA. All rights reserved.
 //
 
-// https://www.hangge.com/blog/cache/detail_891.html
-// https://www.hangge.com/blog/cache/detail_953.html
-
+// https://www.hangge.com/blog/cache/detail_1102.html
+// https://www.hangge.com/blog/cache/detail_1132.html
 
 import UIKit
 
-class RealmViewController: UIViewController {
+class PhotoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = .white
+        // Do any additional setup after loading the view.
     }
     
 

@@ -1,18 +1,22 @@
 //
-//  RealmViewController.swift
+//  SnapKitViewController.swift
 //  SwiftTry
 //
-//  Created by Mac on 2020/4/2.
+//  Created by Mac on 2020/4/3.
 //  Copyright © 2020 AAA. All rights reserved.
 //
 
-// https://www.hangge.com/blog/cache/detail_891.html
-// https://www.hangge.com/blog/cache/detail_953.html
+// https://github.com/SnapKit/SnapKit
+// https://www.hangge.com/blog/cache/detail_1097.html
+// https://www.hangge.com/blog/cache/detail_1110.html
+// https://www.hangge.com/blog/cache/detail_1114.html
+// https://www.hangge.com/blog/cache/detail_1112.html
+// https://www.hangge.com/blog/cache/detail_1113.html
 
 
 import UIKit
 
-class RealmViewController: UIViewController {
+class SnapKitViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

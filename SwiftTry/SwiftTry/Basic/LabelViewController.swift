@@ -7,6 +7,10 @@
 //
 
 // https://www.hangge.com/blog/cache/detail_528.html
+// https://www.hangge.com/blog/cache/detail_959.html【字体库】
+// https://github.com/FortAwesome/Font-Awesome 【字体库】
+// https://fontawesome.com/?from=io 【字体库】
+// https://github.com/Vaberer/Font-Awesome-Swift 【字体库】
 
 import UIKit
 

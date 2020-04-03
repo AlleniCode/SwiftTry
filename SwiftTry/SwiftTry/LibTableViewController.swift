@@ -10,7 +10,14 @@ import UIKit
 
 class LibTableViewController: UITableViewController {
     
-    var arrayData = ["Realm"]
+    var arrayData = ["Realm",
+                     "Alamofire & SwiftHTTP",
+                     "SwiftyJSON",
+                     "LINQ",
+                     "SSZipArchive & GzipSwift",
+                     "GIF - SwiftGif & YLGIFImage-Swift",
+                     "ImageHelper",
+                     "SnapKit"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +47,21 @@ class LibTableViewController: UITableViewController {
         switch indexPath.row {
         case 0:
             let vc = RealmViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 1:
+            let vc = AlamofireViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 2:
+            let vc = JSONViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            let vc = LINQViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 4:
+            let vc = ZipArchiveViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 5:
+            let vc = GIFViewController()
             self.navigationController?.pushViewController(vc, animated: true)
             
         default:

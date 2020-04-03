@@ -14,6 +14,8 @@
 // https://www.hangge.com/blog/cache/detail_869.html
 // https://www.hangge.com/blog/cache/detail_870.html
 // https://www.hangge.com/blog/cache/detail_927.html
+// https://www.hangge.com/blog/cache/detail_958.html
+// https://www.hangge.com/blog/cache/detail_1072.html
 
 
 import UIKit

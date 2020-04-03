@@ -60,6 +60,21 @@
 		048D48BF2435E80A00928810 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48BE2435E80A00928810 /* WebViewController.swift */; };
 		048D48C12435F35200928810 /* LibTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48C02435F35200928810 /* LibTableViewController.swift */; };
 		048D48C42435F3DC00928810 /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48C32435F3DC00928810 /* RealmViewController.swift */; };
+		048D48C62436CFE100928810 /* AirPrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48C52436CFE100928810 /* AirPrintViewController.swift */; };
+		048D48C82436D42A00928810 /* BezierPathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48C72436D42A00928810 /* BezierPathViewController.swift */; };
+		048D48CA2436E15500928810 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48C92436E15500928810 /* NavigationViewController.swift */; };
+		048D48CC2436E4A600928810 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48CB2436E4A600928810 /* AlamofireViewController.swift */; };
+		048D48CE2436E77800928810 /* ReflectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48CD2436E77800928810 /* ReflectionViewController.swift */; };
+		048D48D02437109500928810 /* JSONViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48CF2437109500928810 /* JSONViewController.swift */; };
+		048D48D22437148D00928810 /* LINQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48D12437148D00928810 /* LINQViewController.swift */; };
+		048D48D42437156400928810 /* ZipArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48D32437156400928810 /* ZipArchiveViewController.swift */; };
+		048D48D62437246600928810 /* URLSchemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48D52437246600928810 /* URLSchemesViewController.swift */; };
+		048D48D8243725EF00928810 /* GIFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48D7243725EF00928810 /* GIFViewController.swift */; };
+		048D48DA2437280300928810 /* ImageHelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48D92437280300928810 /* ImageHelperViewController.swift */; };
+		048D48DC243731D800928810 /* PasteboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48DB243731D800928810 /* PasteboardViewController.swift */; };
+		048D48DE2437367A00928810 /* AsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48DD2437367A00928810 /* AsViewController.swift */; };
+		048D48E0243739FE00928810 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48DF243739FE00928810 /* SnapKitViewController.swift */; };
+		048D48E224373F7700928810 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D48E124373F7700928810 /* PhotoViewController.swift */; };
 		04D62C2B2428C93800C9B7B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D62C2A2428C93800C9B7B8 /* AppDelegate.swift */; };
 		04D62C2D2428C93800C9B7B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D62C2C2428C93800C9B7B8 /* SceneDelegate.swift */; };
 		04D62C2F2428C93800C9B7B8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D62C2E2428C93800C9B7B8 /* FirstViewController.swift */; };
@@ -148,6 +163,21 @@
 		048D48BE2435E80A00928810 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		048D48C02435F35200928810 /* LibTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibTableViewController.swift; sourceTree = "<group>"; };
 		048D48C32435F3DC00928810 /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
+		048D48C52436CFE100928810 /* AirPrintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPrintViewController.swift; sourceTree = "<group>"; };
+		048D48C72436D42A00928810 /* BezierPathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathViewController.swift; sourceTree = "<group>"; };
+		048D48C92436E15500928810 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		048D48CB2436E4A600928810 /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
+		048D48CD2436E77800928810 /* ReflectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionViewController.swift; sourceTree = "<group>"; };
+		048D48CF2437109500928810 /* JSONViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONViewController.swift; sourceTree = "<group>"; };
+		048D48D12437148D00928810 /* LINQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LINQViewController.swift; sourceTree = "<group>"; };
+		048D48D32437156400928810 /* ZipArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipArchiveViewController.swift; sourceTree = "<group>"; };
+		048D48D52437246600928810 /* URLSchemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSchemesViewController.swift; sourceTree = "<group>"; };
+		048D48D7243725EF00928810 /* GIFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFViewController.swift; sourceTree = "<group>"; };
+		048D48D92437280300928810 /* ImageHelperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelperViewController.swift; sourceTree = "<group>"; };
+		048D48DB243731D800928810 /* PasteboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardViewController.swift; sourceTree = "<group>"; };
+		048D48DD2437367A00928810 /* AsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsViewController.swift; sourceTree = "<group>"; };
+		048D48DF243739FE00928810 /* SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
+		048D48E124373F7700928810 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		04D62C272428C93800C9B7B8 /* SwiftTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D62C2A2428C93800C9B7B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D62C2C2428C93800C9B7B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -200,6 +230,13 @@
 			isa = PBXGroup;
 			children = (
 				048D48C32435F3DC00928810 /* RealmViewController.swift */,
+				048D48CB2436E4A600928810 /* AlamofireViewController.swift */,
+				048D48CF2437109500928810 /* JSONViewController.swift */,
+				048D48D12437148D00928810 /* LINQViewController.swift */,
+				048D48D32437156400928810 /* ZipArchiveViewController.swift */,
+				048D48D7243725EF00928810 /* GIFViewController.swift */,
+				048D48D92437280300928810 /* ImageHelperViewController.swift */,
+				048D48DF243739FE00928810 /* SnapKitViewController.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -291,6 +328,7 @@
 				048D4888242E08BE00928810 /* AlertViewController.swift */,
 				048D48942431DEFF00928810 /* IndicatorViewController.swift */,
 				048D48BE2435E80A00928810 /* WebViewController.swift */,
+				048D48C92436E15500928810 /* NavigationViewController.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -328,6 +366,13 @@
 				048D48B82435CE0200928810 /* SingletonViewController.swift */,
 				048D48BA2435DE8300928810 /* ClosureViewController.swift */,
 				048D48BC2435E3C700928810 /* CryptoViewController.swift */,
+				048D48C52436CFE100928810 /* AirPrintViewController.swift */,
+				048D48C72436D42A00928810 /* BezierPathViewController.swift */,
+				048D48CD2436E77800928810 /* ReflectionViewController.swift */,
+				048D48D52437246600928810 /* URLSchemesViewController.swift */,
+				048D48DB243731D800928810 /* PasteboardViewController.swift */,
+				048D48DD2437367A00928810 /* AsViewController.swift */,
+				048D48E124373F7700928810 /* PhotoViewController.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -473,20 +518,27 @@
 				048D48952431DEFF00928810 /* IndicatorViewController.swift in Sources */,
 				048D48B92435CE0200928810 /* SingletonViewController.swift in Sources */,
 				04D62C312428C93800C9B7B8 /* SecondViewController.swift in Sources */,
+				048D48DA2437280300928810 /* ImageHelperViewController.swift in Sources */,
+				048D48DC243731D800928810 /* PasteboardViewController.swift in Sources */,
 				048D48A92434961300928810 /* AudioToolboxViewController.swift in Sources */,
 				048D4865242C7E1F00928810 /* ImageViewController.swift in Sources */,
+				048D48CA2436E15500928810 /* NavigationViewController.swift in Sources */,
 				048D488F24319D6E00928810 /* AnimationViewController.swift in Sources */,
 				048D486F242C91D600928810 /* ScrollViewViewController.swift in Sources */,
 				04D62C2F2428C93800C9B7B8 /* FirstViewController.swift in Sources */,
 				048D48912431C37400928810 /* UserDefaultViewController.swift in Sources */,
 				048D48932431DCDB00928810 /* TimerViewController.swift in Sources */,
+				048D48D8243725EF00928810 /* GIFViewController.swift in Sources */,
+				048D48D22437148D00928810 /* LINQViewController.swift in Sources */,
 				048D48BF2435E80A00928810 /* WebViewController.swift in Sources */,
 				048D4889242E08BE00928810 /* AlertViewController.swift in Sources */,
 				048D485D242C542D00928810 /* TextFieldViewController.swift in Sources */,
 				048D488D24319C0400928810 /* CalculationViewController.swift in Sources */,
 				048D4869242C84FE00928810 /* SliderViewController.swift in Sources */,
+				048D48CC2436E4A600928810 /* AlamofireViewController.swift in Sources */,
 				04D62C2B2428C93800C9B7B8 /* AppDelegate.swift in Sources */,
 				04D62C6B2429DE0C00C9B7B8 /* RandomViewController.swift in Sources */,
+				048D48D62437246600928810 /* URLSchemesViewController.swift in Sources */,
 				048D48A5243491E200928810 /* iCloudViewController.swift in Sources */,
 				048D48C12435F35200928810 /* LibTableViewController.swift in Sources */,
 				048D48A12434885500928810 /* AssetsLibraryViewController.swift in Sources */,
@@ -494,11 +546,15 @@
 				048D486B242C88FE00928810 /* PickerViewController.swift in Sources */,
 				048D489B2434762900928810 /* ThreadViewController.swift in Sources */,
 				048D4873242CA5D500928810 /* GestureViewController.swift in Sources */,
+				048D48C62436CFE100928810 /* AirPrintViewController.swift in Sources */,
 				048D487B242DD11B00928810 /* SearchBarViewController.swift in Sources */,
+				048D48DE2437367A00928810 /* AsViewController.swift in Sources */,
 				048D48B12435887A00928810 /* MessageViewController.swift in Sources */,
 				048D48B324358F5300928810 /* MailViewController.swift in Sources */,
+				048D48C82436D42A00928810 /* BezierPathViewController.swift in Sources */,
 				048D4887242DFC8000928810 /* JsonViewController.swift in Sources */,
 				048D489F2434830300928810 /* SocketViewController.swift in Sources */,
+				048D48D42437156400928810 /* ZipArchiveViewController.swift in Sources */,
 				048D489924346FC400928810 /* SpriteKit ViewController.swift in Sources */,
 				048D48AD2434978C00928810 /* MediaViewController.swift in Sources */,
 				048D487D242DD50700928810 /* CollectionViewController.swift in Sources */,
@@ -510,10 +566,12 @@
 				048D4877242D986600928810 /* ToolbarViewController.swift in Sources */,
 				048D4859242AF75C00928810 /* FileViewController.swift in Sources */,
 				04D62C642429C9DC00C9B7B8 /* ButtonViewController.swift in Sources */,
+				048D48E0243739FE00928810 /* SnapKitViewController.swift in Sources */,
 				048D48BB2435DE8300928810 /* ClosureViewController.swift in Sources */,
 				04D62C5D2428CAAA00C9B7B8 /* BasicTableViewController.swift in Sources */,
 				048D4861242C5FA100928810 /* SwitchViewController.swift in Sources */,
 				048D4871242C976E00928810 /* CoreMotionViewController.swift in Sources */,
+				048D48CE2436E77800928810 /* ReflectionViewController.swift in Sources */,
 				048D4867242C82D700928810 /* ProgressViewController.swift in Sources */,
 				048D486D242C8EF500928810 /* StepperViewController.swift in Sources */,
 				04D62C662429DB2C00C9B7B8 /* UtilTableViewController.swift in Sources */,
@@ -526,6 +584,8 @@
 				048D48AF2434A13400928810 /* CoreLocationViewController.swift in Sources */,
 				048D48B52435B57100928810 /* LocalizationViewController.swift in Sources */,
 				048D48AB2434971A00928810 /* AudioViewController.swift in Sources */,
+				048D48D02437109500928810 /* JSONViewController.swift in Sources */,
+				048D48E224373F7700928810 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,10 @@
 
 // https://www.hangge.com/blog/cache/detail_543.html
 // https://www.hangge.com/blog/cache/detail_544.html
+// https://www.hangge.com/blog/cache/detail_951.html
+// https://www.hangge.com/blog/cache/detail_1028.html【侧滑菜单】
+// https://www.hangge.com/blog/cache/detail_1035.html【侧滑菜单，仿QQ】
+
 
 import UIKit
 

@@ -8,6 +8,7 @@
 
 // https://www.hangge.com/blog/cache/detail_799.html
 // https://www.hangge.com/blog/cache/detail_2170.html
+// https://www.hangge.com/blog/cache/detail_1105.html
 
 
 /**
