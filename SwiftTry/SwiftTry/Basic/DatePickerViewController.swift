@@ -8,6 +8,14 @@
 
 // https://www.hangge.com/blog/cache/detail_547.html
 // https://www.hangge.com/blog/cache/detail_548.html
+// https://www.hangge.com/blog/cache/detail_1198.html
+// https://www.hangge.com/blog/cache/detail_1222.html
+// https://www.hangge.com/blog/cache/detail_1223.html
+// https://www.hangge.com/blog/cache/detail_1423.html
+// https://www.hangge.com/blog/cache/detail_1843.html【实现公历、农历日期之间的相互转换】
+// https://www.hangge.com/blog/cache/detail_1897.html
+// https://www.hangge.com/blog/cache/detail_2182.html【实现日期（Date）与字符串（String）的相互转换】
+
 
 import UIKit
 

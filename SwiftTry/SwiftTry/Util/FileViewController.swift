@@ -10,6 +10,7 @@
 // https://www.hangge.com/blog/cache/detail_719.html
 // https://www.hangge.com/blog/cache/detail_765.html
 // https://www.hangge.com/blog/cache/detail_888.html
+// https://www.hangge.com/blog/cache/detail_2216.html【获取文件的MIMEType类型（根据后缀名自动获取）】
 
 
 import UIKit

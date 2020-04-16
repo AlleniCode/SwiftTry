@@ -7,6 +7,10 @@
 //
 
 // https://www.hangge.com/blog/cache/detail_644.html
+// https://www.hangge.com/blog/cache/detail_1311.html
+// https://www.hangge.com/blog/cache/detail_1312.html
+// https://www.hangge.com/blog/cache/detail_1385.html
+
 
 import UIKit
 import EventKit

@@ -46,7 +46,11 @@ class UtilTableViewController: UITableViewController {
                      "URL schemes",
                      "Pasteboard",
                      "as、as!、as?",
-                     "PhotoKit"]
+                     "PhotoKit",
+                     "CoreSpotlight",
+                     "where",
+                     "Notification",
+                     "Set"]
     
 
     override func viewDidLoad() {
@@ -184,6 +188,28 @@ class UtilTableViewController: UITableViewController {
         case 35:
             let vc = AsViewController()
             self.navigationController?.pushViewController(vc, animated: true)
+        case 36:
+            let vc = PhotoViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 37:
+            let vc = CoreSpotlightViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 38:
+            let vc = LayerViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 39:
+            let vc = ARViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 40:
+            let vc = WhereViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 41:
+            let vc = NotificationsViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 42:
+            let vc = SetViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+            
             
         default:
             break

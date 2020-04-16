@@ -8,6 +8,10 @@
 
 // https://www.hangge.com/blog/cache/detail_791.html
 
+// https://www.hangge.com/blog/cache/detail_1522.html【使用ContactsUI访问通讯录（通过图形界面选择联系人）】
+// https://www.hangge.com/blog/cache/detail_1523.html【使用Contacts访问通讯录1（纯代码获取联系人）】
+// https://www.hangge.com/blog/cache/detail_1524.html【使用Contacts访问通讯录2（添加、修改、删除联系人）】
+
 
 import UIKit
 import MessageUI

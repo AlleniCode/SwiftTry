@@ -9,6 +9,10 @@
 // https://www.hangge.com/blog/cache/detail_530.html
 // https://www.hangge.com/blog/cache/detail_718.html
 // https://www.hangge.com/blog/cache/detail_911.html
+// https://www.hangge.com/blog/cache/detail_1498.html【解决表格中TextField,TextView编辑时，输入框被键盘遮挡的问题】
+// https://www.hangge.com/blog/cache/detail_1610.html【手机号码输入框的实现（手机号验证、格式化显示）】
+// https://www.hangge.com/blog/cache/detail_1907.html【限制TextField只能输入中文（附：中文字数的限制）】
+
 
 import UIKit
 

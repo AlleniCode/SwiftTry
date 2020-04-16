@@ -8,6 +8,11 @@
 
 // https://www.hangge.com/blog/cache/detail_562.html
 // https://www.hangge.com/blog/cache/detail_797.html
+// https://www.hangge.com/blog/cache/detail_1126.html
+// https://www.hangge.com/blog/cache/detail_1293.html
+// https://www.hangge.com/blog/cache/detail_1386.html
+// https://www.hangge.com/blog/cache/detail_1429.html
+// https://www.hangge.com/blog/cache/detail_2277.html【实现带有搜索框的导航栏（将UISearchController集成到Navigation上）】
 
 
 import UIKit

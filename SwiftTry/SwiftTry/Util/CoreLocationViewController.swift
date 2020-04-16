@@ -10,6 +10,9 @@
 // https://www.hangge.com/blog/cache/detail_784.html
 // https://www.hangge.com/blog/cache/detail_785.html
 // https://www.hangge.com/blog/cache/detail_787.html
+// https://www.hangge.com/blog/cache/detail_1183.html
+// https://www.hangge.com/blog/cache/detail_1157.html【使用OpenWeatherMap获取天气的实时数据、预测数据】
+// https://www.hangge.com/blog/cache/detail_1878.html【获取、设置MKMapView的地图缩放级别（zoomlevel）】
 
 
 import UIKit

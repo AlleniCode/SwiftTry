@@ -7,6 +7,13 @@
 //
 
 // https://www.hangge.com/blog/cache/detail_545.html
+// https://www.hangge.com/blog/cache/detail_1547.html【计步器CMPedometer的使用（获取用户步数、距离、速度等）】
+// https://www.hangge.com/blog/cache/detail_1551.html【高度计CMAltimeter的使用（获取设备高度变化值、气压）】
+// https://www.hangge.com/blog/cache/detail_1552.html【活动器CMMotionActivityManager的使用（获取当前的运动状态）】
+// https://www.hangge.com/blog/cache/detail_1548.html【陀螺仪数据的获取】
+// https://www.hangge.com/blog/cache/detail_1550.html【磁力计数据的获取】
+// https://www.hangge.com/blog/cache/detail_1544.html【计算运动距离的功能实现（分别基于GPS、计步器）】
+
 
 import UIKit
 import CoreMotion

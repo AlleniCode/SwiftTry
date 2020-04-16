@@ -11,6 +11,9 @@
 // https://www.hangge.com/blog/cache/detail_951.html
 // https://www.hangge.com/blog/cache/detail_1028.html【侧滑菜单】
 // https://www.hangge.com/blog/cache/detail_1035.html【侧滑菜单，仿QQ】
+// https://www.hangge.com/blog/cache/detail_1314.html【图片循环轮播组件的实现】
+// https://www.hangge.com/blog/cache/detail_1514.html【当存在导航栏时，scrollview自动下移的问题解决】
+// https://www.hangge.com/blog/cache/detail_1519.html【edgesForExtendedLayout属性介绍（元素被导航栏遮挡问题）】
 
 
 import UIKit

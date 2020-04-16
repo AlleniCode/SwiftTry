@@ -7,6 +7,9 @@
 //
 
 // https://www.hangge.com/blog/cache/detail_1042.html
+// https://www.hangge.com/blog/cache/detail_1141.html
+// https://www.hangge.com/blog/cache/detail_1265.html
+// https://www.hangge.com/blog/cache/detail_1554.html【通用链接（Universal Links）的使用详解】
 
 
 import UIKit

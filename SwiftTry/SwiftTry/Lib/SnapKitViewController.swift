@@ -12,6 +12,8 @@
 // https://www.hangge.com/blog/cache/detail_1114.html
 // https://www.hangge.com/blog/cache/detail_1112.html
 // https://www.hangge.com/blog/cache/detail_1113.html
+// https://www.hangge.com/blog/cache/detail_1228.html
+// https://www.hangge.com/blog/cache/detail_1753.html【伸缩优先级详解（Content Hugging、Content Compression Resistance）】
 
 
 import UIKit

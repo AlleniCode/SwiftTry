@@ -8,6 +8,13 @@
 
 // https://www.hangge.com/blog/cache/detail_1102.html
 // https://www.hangge.com/blog/cache/detail_1132.html
+// https://www.hangge.com/blog/cache/detail_1174.html
+// https://www.hangge.com/blog/cache/detail_1233.html
+// https://www.hangge.com/blog/cache/detail_1234.html
+// https://www.hangge.com/blog/cache/detail_1192.html【从相册中选择视频（过滤掉照片，使用UIImagePickerController）】
+// https://www.hangge.com/blog/cache/detail_1512.html【相册图片多选功能的实现】
+// https://www.hangge.com/blog/cache/detail_1515.html【监听照片库里的变化（自动获取最新添加的图片）】
+
 
 import UIKit
 

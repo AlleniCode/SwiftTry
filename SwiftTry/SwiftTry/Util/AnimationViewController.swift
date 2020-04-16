@@ -16,6 +16,10 @@
 // https://www.hangge.com/blog/cache/detail_927.html
 // https://www.hangge.com/blog/cache/detail_958.html
 // https://www.hangge.com/blog/cache/detail_1072.html
+// https://www.hangge.com/blog/cache/detail_1540.html
+// https://www.hangge.com/blog/cache/detail_1603.html【输入框抖动效果的实现（扩展UIView、支持所有UI组件）】
+// https://www.hangge.com/blog/cache/detail_1899.html【实现运动轨迹动画（线条的动态绘制）】
+// https://www.hangge.com/blog/cache/detail_2278.html【实现一个波浪动画效果（CADisplayLink定时器的使用样例）】
 
 
 import UIKit

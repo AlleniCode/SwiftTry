@@ -10,6 +10,9 @@
 // https://www.hangge.com/blog/cache/detail_851.html
 // https://www.hangge.com/blog/cache/detail_910.html
 // https://www.hangge.com/blog/cache/detail_910.html
+// https://www.hangge.com/blog/cache/detail_1711.html【Base64编码字符串（Base64加密、解密）】
+// https://www.hangge.com/blog/cache/detail_1698.html【将Data数据转换为[UInt8]（bytes字节数组）】
+// https://www.hangge.com/blog/cache/detail_2202.html【将 String/Data 类型转换成UnsafeMutablePointer<UInt8>类型】
 
 
 import UIKit
@@ -22,7 +25,14 @@ class CryptoViewController: UIViewController {
 
         self.view.backgroundColor = .white
         
+        let data = "航歌".data(using: .utf8)!
+        let bytes = [UInt8](data)
+        print(bytes)
         
+        let bytes1 = data.withUnsafeBytes {
+            [UInt8](UnsafeBufferPointer(start: $0, count: data.count))
+        }
+        print(bytes1)
     }
     
 

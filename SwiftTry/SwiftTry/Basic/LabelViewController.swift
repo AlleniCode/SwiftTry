@@ -11,6 +11,8 @@
 // https://github.com/FortAwesome/Font-Awesome 【字体库】
 // https://fontawesome.com/?from=io 【字体库】
 // https://github.com/Vaberer/Font-Awesome-Swift 【字体库】
+// https://www.hangge.com/blog/cache/detail_1516.html【实现一个圆形数字标签组件（数值变化时有动画效果）】
+// https://www.hangge.com/blog/cache/detail_2165.html【判断UILabel文字是否被截断（是否有多余文字被省略）】
 
 import UIKit
 

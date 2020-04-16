@@ -11,6 +11,19 @@
 // https://www.hangge.com/blog/cache/detail_762.html
 // https://www.hangge.com/blog/cache/detail_1081.html
 // https://www.hangge.com/blog/cache/detail_1090.html
+// https://www.hangge.com/blog/cache/detail_1445.html
+// https://www.hangge.com/blog/cache/detail_1594.html【动态切换UICollectionView的layout布局】
+// https://www.hangge.com/blog/cache/detail_1592.html【带有多section分区的collectionView的使用样例】
+// https://www.hangge.com/blog/cache/detail_1591.html【实现表格tableViewCell里嵌套collectionView】
+// https://www.hangge.com/blog/cache/detail_1599.html【实现UICollectionView分组头悬停效果（方法1：使用自定义布局）】
+// https://www.hangge.com/blog/cache/detail_1600.html【实现UICollectionView分组头悬停效果（方法2：使用iOS9新特性）】
+// https://www.hangge.com/blog/cache/detail_1601.html【实现UICollectionView中元素的环形布局】
+// https://www.hangge.com/blog/cache/detail_1677.html
+// https://www.hangge.com/blog/cache/detail_1678.html
+// https://www.hangge.com/blog/cache/detail_1602.html【使用CollectionView实现图片Gallery画廊效果（左右滑动浏览图片）】
+// https://www.hangge.com/blog/cache/detail_1605.html【使用CollectionView实现图片Stack层叠效果】
+// https://www.hangge.com/blog/cache/detail_1844.html【让CollectionView里的Section分别设置不同的背景色】
+
 
 import UIKit
 

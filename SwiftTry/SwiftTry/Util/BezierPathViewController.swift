@@ -12,6 +12,14 @@
 // https://www.hangge.com/blog/cache/detail_942.html
 // https://www.hangge.com/blog/cache/detail_1072.html
 
+// https://www.hangge.com/blog/cache/detail_1437.html【Core Graphics绘图框架详解1（绘制线条）】
+// https://www.hangge.com/blog/cache/detail_1438.html【Core Graphics绘图框架详解2（绘制图形）】
+// https://www.hangge.com/blog/cache/detail_1439.html【Core Graphics绘图框架详解3（绘制渐变、填充渐变色）】
+// https://www.hangge.com/blog/cache/detail_1441.html【Core Graphics绘图框架详解4（绘制图片、图形变换）】
+// https://www.hangge.com/blog/cache/detail_1442.html【Core Graphics绘图框架详解5（绘制文字、文字复杂排版）】
+
+// https://www.hangge.com/blog/cache/detail_1898.html【自动书写文字的动画效果（文字转贝塞尔曲线、实现字迹动画）】
+
 
 import UIKit
 

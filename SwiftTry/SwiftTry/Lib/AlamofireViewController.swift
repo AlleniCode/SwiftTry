@@ -13,9 +13,29 @@
 // https://www.hangge.com/blog/cache/detail_972.html
 // https://www.hangge.com/blog/cache/detail_973.html
 // https://www.hangge.com/blog/cache/detail_1052.html
+// https://www.hangge.com/blog/cache/detail_1171.html
+// https://www.hangge.com/blog/cache/detail_1174.html
+// https://www.hangge.com/blog/cache/detail_2173.html【取消未完成的网络请求】
+
+/// 【Moya】
+// https://github.com/Moya/Moya
+// https://www.hangge.com/blog/cache/detail_1797.html
+// https://www.hangge.com/blog/cache/detail_1805.html
+// https://www.hangge.com/blog/cache/detail_1804.html
+// https://www.hangge.com/blog/cache/detail_1807.html
+// https://www.hangge.com/blog/cache/detail_1806.html
+// https://www.hangge.com/blog/cache/detail_1809.html
+// https://www.hangge.com/blog/cache/detail_1817.html
+// https://www.hangge.com/blog/cache/detail_1818.html
+
 
 /// 【URLSession】
 // https://www.hangge.com/blog/cache/detail_991.html
+// https://www.hangge.com/blog/cache/detail_1659.html【Cookie内容的读取、删除、写入（附：手动清除Session）】
+// https://www.hangge.com/blog/cache/detail_2203.html【实现大文件的后台下载功能】
+// https://www.hangge.com/blog/cache/detail_2215.html【使用原生方式同时上传多个文件和参数（form表单提交、post方式）】
+// https://www.hangge.com/blog/cache/detail_2204.html【实现大文件的后台上传功能】
+
 
 /// 【SwiftHTTP】
 // https://github.com/daltoniam/SwiftHTTP

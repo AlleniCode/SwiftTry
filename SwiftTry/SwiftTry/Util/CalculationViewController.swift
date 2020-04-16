@@ -8,6 +8,9 @@
 
 // https://www.hangge.com/blog/cache/detail_657.html
 // https://www.hangge.com/blog/cache/detail_708.html
+// https://www.hangge.com/blog/cache/detail_1827.html【高阶函数介绍（map、flatMap、filter、reduce）】
+// https://www.hangge.com/blog/cache/detail_1829.html【zip函数使用详解】
+
 
 import UIKit
 
@@ -28,6 +31,13 @@ class CalculationViewController: UIViewController {
         print(v1)
         print(v2)
         print(v3)
+        
+        
+        // 取余
+        let value1 = 5.5
+        let value2 = 2.2
+        let result = value1.truncatingRemainder(dividingBy: value2)
+        print(result)
     }
     
     /// 2的N次方

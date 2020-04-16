@@ -7,6 +7,10 @@
 //
 
 // https://www.hangge.com/blog/cache/detail_541.html
+// https://www.hangge.com/blog/cache/detail_1169.html【省市县三级联动功能的实现】
+// https://www.hangge.com/blog/cache/detail_1866.html【无限循环滚动的实现（数据循环显示）】
+// https://www.hangge.com/blog/cache/detail_1955.html【让UIPickerView里的选项文字自动换行（多行显示）】
+
 
 import UIKit
 

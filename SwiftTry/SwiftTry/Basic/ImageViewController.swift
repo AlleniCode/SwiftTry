@@ -27,6 +27,22 @@
 // https://www.hangge.com/blog/cache/detail_975.html【ImageHelper】
 // https://www.hangge.com/blog/cache/detail_1102.html【相册】
 // https://www.hangge.com/blog/cache/detail_1132.html【相册】
+// https://www.hangge.com/blog/cache/detail_1135.html【实现毛玻璃效果（Blur、模糊、虚化背景元素）】
+// https://www.hangge.com/blog/cache/detail_1424.html【实现图片的模糊效果（高斯模糊滤镜）】
+// https://www.hangge.com/blog/cache/detail_1344.html【改变UIImage图片的大小尺寸，或按比例缩放】
+// https://www.hangge.com/blog/cache/detail_1462.html【QQ讨论组头像的实现 （多人聊天的组合头像）】
+// https://www.hangge.com/blog/cache/detail_1463.html【微信聊天群头像实现 （群聊的组合头像）】
+// https://www.hangge.com/blog/cache/detail_1496.html【去处图片的白色、黑色背景（使UIImage背景透明）】
+// https://www.hangge.com/blog/cache/detail_1513.html【实现图片全屏展示功能（可左右滑动切换图片）】
+// https://www.hangge.com/blog/cache/detail_1535.html【圆形图片的生成及显示（两种办法）】
+// https://www.hangge.com/blog/cache/detail_1660.html【刮刮卡效果的实现】
+// https://www.hangge.com/blog/cache/detail_2074.html【将图片缩放至指定尺寸（自动裁掉多余部分，确保图片不变形）】
+// https://www.hangge.com/blog/cache/detail_2072.html【将图片裁剪成指定的长宽比例（自动裁掉多余部分，确保图片不变形）】
+// https://www.hangge.com/blog/cache/detail_2069.html【设置UIView的背景图片（平铺、拉伸）】
+// https://www.hangge.com/blog/cache/detail_2070.html【使用resizableImage拉伸图片的指定部分（九宫格拉伸）】
+// https://www.hangge.com/blog/cache/detail_2071.html【截图功能的实现1（通过扩展实现将UIView转成UIImage）】
+// https://www.hangge.com/blog/cache/detail_2114.html【截图功能的实现2（使用SwViewCapture库实现滚动视图的截屏）】
+// https://www.hangge.com/blog/cache/detail_2304.html【获取图片UIImage指定像素的颜色值】
 
 
 import UIKit
