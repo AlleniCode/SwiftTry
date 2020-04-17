@@ -32,6 +32,22 @@ class ArrayViewController: UIViewController {
         
         userList.sort(by: {$0.name > $1.name})
         print(userList)
+        
+        
+        
+        testMutable()
+    }
+    
+    /// 数组可变性
+    func testMutable() {
+        let array = [1, 2, 3]
+        var array1 = array
+        array1.append(4)
+        
+        print(array)   // array 没变
+        // [1, 2, 3]
+        print(array1)  // array1 变化了
+        // [1, 2, 3, 4]
     }
     
 
