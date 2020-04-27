@@ -30,6 +30,7 @@
 		042B2CE524482BF10026136F /* PromiseKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B2CE424482BF10026136F /* PromiseKitViewController.swift */; };
 		042B2CE7244832190026136F /* AAInfographicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B2CE6244832190026136F /* AAInfographicsViewController.swift */; };
 		042B2CE92448356A0026136F /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B2CE82448356A0026136F /* SideMenuViewController.swift */; };
+		0446D717245280090010F426 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446D716245280090010F426 /* DictionaryViewController.swift */; };
 		048D4859242AF75C00928810 /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4858242AF75C00928810 /* FileViewController.swift */; };
 		048D485B242C4E5D00928810 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D485A242C4E5D00928810 /* LabelViewController.swift */; };
 		048D485D242C542D00928810 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D485C242C542D00928810 /* TextFieldViewController.swift */; };
@@ -158,6 +159,7 @@
 		042B2CE424482BF10026136F /* PromiseKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromiseKitViewController.swift; sourceTree = "<group>"; };
 		042B2CE6244832190026136F /* AAInfographicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAInfographicsViewController.swift; sourceTree = "<group>"; };
 		042B2CE82448356A0026136F /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		0446D716245280090010F426 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 		048D4858242AF75C00928810 /* FileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
 		048D485A242C4E5D00928810 /* LabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
 		048D485C242C542D00928810 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
@@ -448,6 +450,7 @@
 				042B2CD22446ECF60026136F /* WhereViewController.swift */,
 				042B2CD42446F5200026136F /* NotificationsViewController.swift */,
 				042B2CD82446FAA40026136F /* SetViewController.swift */,
+				0446D716245280090010F426 /* DictionaryViewController.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -669,6 +672,7 @@
 				042B2CC52446AEE40026136F /* ObjectMapperViewController.swift in Sources */,
 				048D4867242C82D700928810 /* ProgressViewController.swift in Sources */,
 				048D486D242C8EF500928810 /* StepperViewController.swift in Sources */,
+				0446D717245280090010F426 /* DictionaryViewController.swift in Sources */,
 				04D62C662429DB2C00C9B7B8 /* UtilTableViewController.swift in Sources */,
 				048D489724346BB800928810 /* ArrayViewController.swift in Sources */,
 				048D4881242DDCED00928810 /* ColorViewController.swift in Sources */,

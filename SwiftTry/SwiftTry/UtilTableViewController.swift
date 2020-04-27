@@ -48,9 +48,12 @@ class UtilTableViewController: UITableViewController {
                      "as、as!、as?",
                      "PhotoKit",
                      "CoreSpotlight",
+                     "Layer",
+                     "AR",
                      "where",
                      "Notification",
-                     "Set"]
+                     "Set",
+                     "Dictionary"]
     
 
     override func viewDidLoad() {
@@ -209,7 +212,9 @@ class UtilTableViewController: UITableViewController {
         case 42:
             let vc = SetViewController()
             self.navigationController?.pushViewController(vc, animated: true)
-            
+        case 43:
+            let vc = DictionaryViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
             
         default:
             break

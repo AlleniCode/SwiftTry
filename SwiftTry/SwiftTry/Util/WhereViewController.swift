@@ -17,6 +17,8 @@ class WhereViewController: UIViewController {
         super.viewDidLoad()
 
         self.view.backgroundColor = .white
+        
+        /// 函数、扩展、关联类型都可以使用 where 语句。
     }
     
 

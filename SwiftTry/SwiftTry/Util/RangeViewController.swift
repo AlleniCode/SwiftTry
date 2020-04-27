@@ -34,6 +34,9 @@ class RangeViewController: UIViewController {
             print(i)
         }
         
+        /// 字符
+        let lowercaseLetters = Character("a")...Character("z")
+        print(lowercaseLetters)
         
     }
     
