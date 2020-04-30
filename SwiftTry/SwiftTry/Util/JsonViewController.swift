@@ -23,6 +23,8 @@ class JsonViewController: UIViewController {
         self.json()
         
         self.jsonString()
+        
+        self.testCodingKey()
     }
     
     func json() {
@@ -55,6 +57,17 @@ class JsonViewController: UIViewController {
         print(jsonArray!)
     }
     
+    func testCodingKey() {
+        let json = """
+                   {
+                      "nick_name": "Allen",
+                      "points": 60,
+                   }
+        """.data(using: .utf8)
+        let product = try? JSONDecoder().decode(Product.self, from: json ?? Data())
+        print(product!.nickName)
+    }
+    
 
     /*
     // MARK: - Navigation
@@ -66,4 +79,15 @@ class JsonViewController: UIViewController {
     }
     */
 
+}
+
+
+struct Product: Codable {
+    var nickName: String
+    var points: Int
+    
+    enum CodingKeys: String, CodingKey {
+        case nickName = "nick_name"
+        case points
+    }
 }

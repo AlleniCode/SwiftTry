@@ -31,6 +31,7 @@
 		042B2CE7244832190026136F /* AAInfographicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B2CE6244832190026136F /* AAInfographicsViewController.swift */; };
 		042B2CE92448356A0026136F /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B2CE82448356A0026136F /* SideMenuViewController.swift */; };
 		0446D717245280090010F426 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446D716245280090010F426 /* DictionaryViewController.swift */; };
+		0446D71C24581A240010F426 /* OptionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446D71B24581A240010F426 /* OptionalViewController.swift */; };
 		048D4859242AF75C00928810 /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D4858242AF75C00928810 /* FileViewController.swift */; };
 		048D485B242C4E5D00928810 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D485A242C4E5D00928810 /* LabelViewController.swift */; };
 		048D485D242C542D00928810 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D485C242C542D00928810 /* TextFieldViewController.swift */; };
@@ -160,6 +161,7 @@
 		042B2CE6244832190026136F /* AAInfographicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAInfographicsViewController.swift; sourceTree = "<group>"; };
 		042B2CE82448356A0026136F /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		0446D716245280090010F426 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
+		0446D71B24581A240010F426 /* OptionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalViewController.swift; sourceTree = "<group>"; };
 		048D4858242AF75C00928810 /* FileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
 		048D485A242C4E5D00928810 /* LabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
 		048D485C242C542D00928810 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
@@ -451,6 +453,7 @@
 				042B2CD42446F5200026136F /* NotificationsViewController.swift */,
 				042B2CD82446FAA40026136F /* SetViewController.swift */,
 				0446D716245280090010F426 /* DictionaryViewController.swift */,
+				0446D71B24581A240010F426 /* OptionalViewController.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -602,6 +605,7 @@
 				042B2CE12447F6CE0026136F /* ChartsViewController.swift in Sources */,
 				04D62C312428C93800C9B7B8 /* SecondViewController.swift in Sources */,
 				048D48DA2437280300928810 /* ImageHelperViewController.swift in Sources */,
+				0446D71C24581A240010F426 /* OptionalViewController.swift in Sources */,
 				048D48DC243731D800928810 /* PasteboardViewController.swift in Sources */,
 				048D48A92434961300928810 /* AudioToolboxViewController.swift in Sources */,
 				048D4865242C7E1F00928810 /* ImageViewController.swift in Sources */,

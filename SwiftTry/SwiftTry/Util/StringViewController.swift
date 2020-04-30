@@ -48,6 +48,8 @@ class StringViewController: UIViewController {
         self.numberFormat()
         
         self.stringToArray()
+        
+        testFileExtension()
     }
     
     /// 数字格式化成字符串
@@ -143,6 +145,11 @@ class StringViewController: UIViewController {
         //打印结果
         print("原字符串：\(str1)")
         print("新字符串：\(str2)")
+    }
+    
+    func testFileExtension() {
+        let file = "swift.png"
+        print(file.fileExtension ?? "")
     }
     
 
@@ -245,5 +252,36 @@ extension String {
         return regex.stringByReplacingMatches(in: self, options: [],
                                               range: NSMakeRange(0, self.count),
                                               withTemplate: with)
+    }
+}
+
+
+extension String {
+    // 判断是否是整数
+    func isInt() -> Bool {
+        let scan: Scanner = Scanner(string: self)
+        var val: Int = 0
+        let result = scan.scanInt(&val) && scan.isAtEnd
+        return result
+    }
+    
+    // 判断是否是 Float
+    func isFloat() -> Bool {
+        let scan: Scanner = Scanner(string: self)
+        var val: Float = 0
+        let result = scan.scanFloat(&val) && scan.isAtEnd
+        return result
+    }
+}
+
+
+extension String {
+    var fileExtension: String? {
+        guard let period = lastIndex(of: ".") else {
+            return nil
+        }
+        let extensionStart = index(after: period)
+        let result = String(self[extensionStart...])
+        return result
     }
 }

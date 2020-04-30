@@ -53,7 +53,8 @@ class UtilTableViewController: UITableViewController {
                      "where",
                      "Notification",
                      "Set",
-                     "Dictionary"]
+                     "Dictionary",
+                     "Optional"]
     
 
     override func viewDidLoad() {
@@ -214,6 +215,9 @@ class UtilTableViewController: UITableViewController {
             self.navigationController?.pushViewController(vc, animated: true)
         case 43:
             let vc = DictionaryViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 44:
+            let vc = OptionalViewController()
             self.navigationController?.pushViewController(vc, animated: true)
             
         default:

@@ -12,6 +12,20 @@
 
 import UIKit
 
+@objcMembers
+final class Person: NSObject {
+    let first: String
+    let last: String
+    let yearOfBirth: Int
+    
+    init(first: String, last: String, yearOfBirth: Int) {
+        self.first = first
+        self.last = last
+        self.yearOfBirth = yearOfBirth
+    }
+}
+
+
 class ArrayViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -62,6 +76,8 @@ class ArrayViewController: UIViewController {
         testReduce()
         
         testStrongWeak()
+        
+        testSort()
     }
     
     /// 创建数组
@@ -327,6 +343,169 @@ class ArrayViewController: UIViewController {
         print(weakArray)
     }
     
+    
+    /// 集合排序
+    func testSort() {
+        // 1.
+        let array = [9, 4, 7, 3]
+        let sortedArray = array.sorted()
+        print(sortedArray)
+        
+        let sortedArray1 = array.sorted(by: >)
+        print(sortedArray1)
+        
+        
+        // 2.
+        var numberStrings = [(2, "Two"), (1, "One"), (3, "Three")]
+        numberStrings.sort(by: <)
+        print(numberStrings)
+        
+        
+        // 3.
+        let animals = ["elephant", "zebra", "dog"]
+        let sortedAnimals = animals.sorted { lhs, rhs in
+            let l = lhs.reversed()
+            let r = rhs.reversed()
+            return l.lexicographicallyPrecedes(r)
+        }
+        print(sortedAnimals)
+        
+        
+        // 4. 排序规则是先按照姓排序，再按照名排序，最后是出生年份
+        let people = [
+            Person(first: "Emily", last: "Young", yearOfBirth: 2002),
+            Person(first: "David", last: "Gray", yearOfBirth: 1991),
+            Person(first: "Robert", last: "Barnes", yearOfBirth: 1985),
+            Person(first: "Ava", last: "Barnes", yearOfBirth: 2000),
+            Person(first: "Joanne", last: "Miller", yearOfBirth: 1994),
+            Person(first: "Ava", last: "Barnes", yearOfBirth: 1998),
+        ]
+        let lastDescriptor = NSSortDescriptor(key: #keyPath(Person.last), ascending: true, selector: #selector(NSString.localizedStandardCompare(_:)))
+        let firstDescriptor = NSSortDescriptor(key: #keyPath(Person.first), ascending: true, selector: #selector(NSString.localizedStandardCompare(_:)))
+        let yearDescriptor = NSSortDescriptor(key: #keyPath(Person.yearOfBirth), ascending: true)
+        let descriptors = [lastDescriptor, firstDescriptor, yearDescriptor]
+        let sortedPeople = (people as NSArray).sortedArray(using: descriptors)
+        for p in sortedPeople {
+            print((p as! Person).first + " " + (p as! Person).last + " " + String((p as! Person).yearOfBirth))
+        }
+        
+        
+        // 5.
+        var strings = ["Hello", "hallo", "Hallo", "hello"]
+        strings.sort { $0.localizedStandardCompare($1) == .orderedAscending}
+        print(strings)
+        
+        
+        // 6.
+        var files = ["one", "file.h", "file.c", "test.h"]
+        files.sort { l, r in
+            r.fileExtension.flatMap {
+                l.fileExtension?.localizedStandardCompare($0)
+                } == .orderedAscending
+        }
+        print(files)
+        
+        
+        // 7.
+        let sortedPeople1 = people.sorted { p0, p1 in
+            let left = [p0.last, p0.first]
+            let right = [p1.last, p1.first]
+            return left.lexicographicallyPrecedes(right) {
+                $0.localizedStandardCompare($1) == .orderedAscending
+            }
+        }
+        for p in sortedPeople1 {
+            print(p.first + " " + p.last + " " + String(p.yearOfBirth))
+        }
+        
+        
+        // 8. 用别名定义比较 Person 对象的排序描述符
+        typealias SortDescriptor<Root> = (Root, Root) -> Bool
+        let sortByYear: SortDescriptor<Person> = { $0.yearOfBirth < $1.yearOfBirth }
+        let sortByLastName: SortDescriptor<Person> = { $0.last.localizedStandardCompare($1.last) == .orderedAscending }
+        
+        // key 函数描述了如何深入一个 Root 类型的元素，并提取出一个和特定排序步骤相关的 Value 类型的值。
+        func sortDescriptor<Root, Value>(key: @escaping(Root) -> Value, by areInIncreasingOrder: @escaping(Value, Value) -> Bool) -> SortDescriptor<Root> {
+            return { areInIncreasingOrder(key($0), key($1)) }
+        }
+        
+        let sortByYearAlt: SortDescriptor<Person> = sortDescriptor(key: { $0.yearOfBirth }, by: <)
+        let sortedPeople2 = people.sorted(by: sortByYearAlt)
+        for p in sortedPeople2 {
+            print(p.first + " " + p.last + " " + String(p.yearOfBirth))
+        }
+        
+        // 还可以为所有实现了 Comparable 的类型定义一个重载版本
+        func sortDescriptor1<Root, Value>(key: @escaping(Root) -> Value) -> SortDescriptor<Root> where Value: Comparable {
+            return { key($0) < key($1) }
+        }
+        let sortByYearAlt1: SortDescriptor<Person> = sortDescriptor1(key: { $0.yearOfBirth })
+        let sortedPeople3 = people.sorted(by: sortByYearAlt1)
+        for p in sortedPeople3 {
+            print(p.first + " " + p.last + " " + String(p.yearOfBirth))
+        }
+        
+        func sortDescriptor2<Root, Value>(key: @escaping(Root) -> Value, ascending: Bool = true, by comparator: @escaping(Value) -> (Value) -> ComparisonResult) -> SortDescriptor<Root> {
+            return { lhs, rhs in
+                let order: ComparisonResult = ascending ? .orderedAscending:.orderedDescending
+                return comparator(key(lhs))(key(rhs)) == order
+            }
+        }
+        let sortByFirstName: SortDescriptor<Person> = sortDescriptor2(key: { $0.first }, by: String.localizedStandardCompare)
+        let sortedPeople4 = people.sorted(by: sortByFirstName)
+        for p in sortedPeople4 {
+            print(p.first + " " + p.last + " " + String(p.yearOfBirth))
+        }
+        
+        func combine<Root>(sortDescriptors: [SortDescriptor<Root>]) -> SortDescriptor<Root> {
+            return { lhs, rhs in
+                for areInIncreasingOrder in sortDescriptors {
+                    if areInIncreasingOrder(lhs, rhs) {
+                        return true
+                    }
+                    if areInIncreasingOrder(rhs, lhs) {
+                        return false
+                    }
+                }
+                return false
+            }
+        }
+        
+        let combined: SortDescriptor<Person> = combine(sortDescriptors: [sortByLastName, sortByFirstName, sortByYear])
+        let sortedPeople5 = people.sorted(by: combined)
+        for p in sortedPeople5 {
+            print(p.first + " " + p.last + " " + String(p.yearOfBirth))
+        }
+        
+        // 自定义运算符
+        let combinedAlt = sortByLastName <||> sortByFirstName <||> sortByYear
+        let sortedPeople6 = people.sorted(by: combinedAlt)
+        for p in sortedPeople6 {
+            print(p.first + " " + p.last + " " + String(p.yearOfBirth))
+        }
+        
+        
+        // 9.
+        func lift<A>(_ compare: @escaping(A) -> (A) -> ComparisonResult) -> (A?) -> (A?) -> ComparisonResult {
+            return { lhs in { rhs in
+                switch (lhs, rhs) {
+                case (nil, nil):
+                    return .orderedSame
+                case (nil, _):
+                    return .orderedAscending
+                case (_, nil):
+                    return .orderedDescending
+                case let (l?, r?):
+                    return compare(l)(r)
+                }
+                }
+            }
+        }
+        let compare = lift(String.localizedStandardCompare)
+        let result = files.sorted(by: sortDescriptor2(key: { $0.fileExtension }, by: compare))
+        print(result)
+    }
+    
 
     /*
     // MARK: - Navigation
@@ -368,5 +547,20 @@ extension Array {
             running = nextPartialResult(running, next)
             return running
         }
+    }
+}
+
+
+// 自定义运算符，来合并两个排序函数
+infix operator <||> : LogicalDisjunctionPrecedence
+func <||><A>(lhs: @escaping (A,A) -> Bool, rhs: @escaping (A,A) -> Bool)
+    -> (A,A) -> Bool
+{
+    return { x, y in
+        if lhs(x, y) { return true }
+        if lhs(y, x) { return false }
+        // 否则，它们就是一样的，所以我们检查第二个条件
+        if rhs(x, y) { return true }
+        return false
     }
 }
